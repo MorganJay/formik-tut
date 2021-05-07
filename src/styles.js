@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 export const Styles = styled.div`
+  flex-basis: 30%;
+
   h1 {
     text-align: center;
     color: #777;
@@ -9,8 +11,6 @@ export const Styles = styled.div`
   form {
     display: flex;
     flex-direction: column;
-    width: 25%;
-    margin: 0 auto;
 
     label {
       margin-top: 20px;
